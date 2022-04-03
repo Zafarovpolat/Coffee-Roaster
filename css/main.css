@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'),
+        url('../fonts/fraunces-v10-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'),
+        url('../fonts/fraunces-v10-latin-900.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/barlow-v11-latin-regular.woff2') format('woff2'),
+        url('../fonts/barlow-v11-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/barlow-v11-latin-700.woff2') format('woff2'),
+        url('../fonts/barlow-v11-latin-700.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: 'Barlow' 'Fraunce', sans-serif;
+} */
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+section {
+    width: 100%;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.coffee-button {
+    padding: 15px 31px 16px 31px;
+    cursor: pointer;
+    color: #FEFCF7;
+    background: #0E8784;
+    border: none;
+    text-align: center;
+    border-radius: 6px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    transition: all 0.7s;
+}
+
+.coffee-button:hover {
+    background: #66D2CF;
+}
+
+.coffee-button:active {
+    transform: scale(0.95, 0.95);
+    background: #E2DEDB;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* header */
+
+header {
+    margin-bottom: 45px;
+}
+
+
+.header__container {
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    width: 283px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
+
+.header__link:hover {
+    color: #0E8784;
+}
+
+.header__link:active {
+    color: #333D4B;
+}
+
+/* hero */
+
+.hero {
+    margin-bottom: 136px;
+}
+
+.hero__container {
+    background-image: url(/images/hero-img.png);
+    border-radius: 10px;
+    padding: 0px 86px 0px 86px;
+}
+
+.hero__wrapper {
+    width: 493px;
+    padding: 116px 0px 117px 0px;
+}
+
+.hero__heading {
+    width: 493px;
+    margin-bottom: 32px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.hero__info {
+    width: 444px;
+    margin-bottom: 56px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+/* collection */
+
+.collection {
+    margin-bottom: 180px;
+}
+
+.collection__container {
+    background-image: url(/images/collections.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.collection__list {
+    padding-top: 130px;
+    width: 1111px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection__item {
+    transition: all 0.7s;
+}
+
+.collection__item:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.collection__link {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collection__name {
+    margin-bottom: 24px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.collection__info {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
