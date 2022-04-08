@@ -68,7 +68,11 @@ section {
 }
 
 .coffee-button {
-    padding: 15px 31px 16px 31px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 257px;
+    padding: 15px 34px 16px 35px;
     cursor: pointer;
     color: #FEFCF7;
     background: #0E8784;
@@ -80,7 +84,7 @@ section {
     font-weight: 900;
     font-size: 18px;
     line-height: 25px;
-    transition: all 0.7s;
+    transition: all 0.3s;
 }
 
 .coffee-button:hover {
@@ -104,12 +108,17 @@ section {
 /* header */
 
 header {
+    margin-top: 45px;
+    padding: 10px 0px 10px 0px;
     margin-bottom: 45px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 
 .header__container {
-    margin-top: 44px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -205,7 +214,7 @@ header {
 }
 
 .collection__item {
-    transition: all 0.7s;
+    transition: all 0.3s;
 }
 
 .collection__item:hover {
