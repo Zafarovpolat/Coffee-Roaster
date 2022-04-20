@@ -56,6 +56,8 @@ section {
     width: 100%;
 }
 
+/* Landpage */
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -442,11 +444,14 @@ header {
 
 /* footer */
 
+.footer {
+    background: #2C343E;
+}
+
 .footer__container {
     display: flex;
     align-items: center;
     padding: 48px 85px 48px 85px;
-    background: #2C343E;
 }
 
 .footer__left {
@@ -512,4 +517,185 @@ header {
 
 #instagram:hover {
     fill: #C13584;
+}
+
+
+/* About page */
+
+.hero-about {
+    margin-bottom: 168px;
+}
+
+.hero-about__container {
+    background-image: url(/images/About_Us.png);
+    border-radius: 10px;
+    padding: 0px 85px 0px 85px;
+}
+
+.hero-about__wrapper {
+    padding: 137px 0px 137px 0px;
+}
+
+.hero-about__heading {
+    margin-bottom: 24px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.hero-about__info {
+    width: 445px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+/* commit */
+
+.commit {
+    margin-bottom: 248px;
+}
+
+.commit__container {
+    padding: 0px 85px 0px 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commit__img {
+    border-radius: 8px;
+}
+
+.commit__name {
+    margin-bottom: 32px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.commit__info {
+    width: 540px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    opacity: 0.8;
+}
+
+/* quality */
+
+.quality {
+    margin-bottom: 168px;
+}
+
+.quality__container {
+    padding: 88px 85px 176px 85px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 10px;
+    background-color: #282F38;
+}
+
+.quality__name {
+    margin-bottom: 32px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.quality__info {
+    width: 540px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.quality__img {
+    position: absolute;
+    margin: -176px 0px 0px -448px;
+    border-radius: 8px;
+}
+
+/* our-quarters */
+
+.our-quarters {
+    margin-bottom: 168px;
+}
+
+.our-quarters__container {
+    padding: 0px 85px 0px 85px;
+}
+
+.our-quarters__name {
+    margin-bottom: 72px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.our-quarters__list {
+    display: flex;
+}
+
+.our-quarters__item {
+    width: 285px;
+}
+
+.our-quarters__item+.our-quarters__item {
+    margin-left: 108px;
+}
+
+.our-quarters__item:nth-child(1)::before {
+    content: url(../images/UK.svg);
+}
+
+.our-quarters__item:nth-child(2)::before {
+    content: url(../images/Canada.svg);
+}
+
+.our-quarters__item:nth-child(3)::before {
+    content: url(../images/Australia.svg);
+}
+
+.our-quarters__country {
+    padding-top: 47px;
+    margin-bottom: 24px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.our-quarters__location {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
 }
