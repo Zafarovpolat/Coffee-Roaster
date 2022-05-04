@@ -1,0 +1,41 @@
+// Create Plan Page
+
+.hero-plan {
+
+    & {
+        margin-bottom: 168px;
+    }
+
+    &__container {
+        background-image: url(/images/Create_plan.png);
+        border-radius: 10px;
+        padding: 0px 86px 0px 86px;
+    }
+
+    &__wrapper {
+        padding: 134px 0px 134px 0px;
+    }
+
+    &__heading {
+        margin-bottom: 32px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: $light-cream;
+    }
+
+    &__info {
+        width: 445px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $light-cream;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+}

@@ -1,0 +1,159 @@
+// Types
+
+.types {
+    & {
+        margin-bottom: 168px;
+    }
+
+    &__container {
+        display: flex;
+    }
+
+    &__titles {
+        width: 255px;
+    }
+
+    &__title-item {
+        display: flex;
+        margin-bottom: 49px;
+    }
+
+    &__title-text {
+        margin-right: 28px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: $grey;
+        opacity: 50%;
+    }
+
+    &__title-item:nth-child(1)>&__title-text {
+        color: $cyan;
+    }
+
+    &__title-subtext {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: $dark-grey-blue;
+        opacity: 50%;
+    }
+
+    &__title-item:hover {
+        cursor: pointer;
+    }
+
+    &__title-item:hover>&__title-text {
+        opacity: 1;
+    }
+
+    &__title-item:hover>&__title-subtext {
+        opacity: 1;
+    }
+
+    &__title-item::after {
+        content: url(/images/underline.svg);
+        position: absolute;
+        margin-top: 34px;
+    }
+
+    &__title-item:last-of-type::after {
+        content: none;
+    }
+
+    // &__card-name {
+    //     margin-bottom: 56px;
+    //     font-family: 'Fraunces';
+    //     font-style: normal;
+    //     font-weight: 900;
+    //     font-size: 40px;
+    //     line-height: 48px;
+    //     color: $grey;
+    // }
+
+    // &__card-list {
+    //     width: 730px;
+    //     margin-bottom: 88px;
+    //     display: flex;
+    //     justify-content: space-between;
+    // }
+
+    // &__card-item {
+    //     background: #F4F1EB;
+    //     border-radius: 8px;
+    // }
+
+    // &__card-item:hover {
+    //     background: $pale-orange;
+    //     cursor: pointer;
+    // }
+
+    // &__card-item:active {
+    //     background: $pale-orange;
+    //     cursor: pointer;
+    // }
+
+    // &__card-item-wrapper {
+    //     width: 172px;
+    //     padding: 32px 28px 84px 28px;
+    // }
+
+    // &__card-item-name {
+    //     font-family: 'Fraunces';
+    //     font-style: normal;
+    //     font-weight: 900;
+    //     font-size: 24px;
+    //     line-height: 32px;
+    //     color: $dark-grey-blue;
+    // }
+
+    // &__card-item-info {
+    //     font-family: 'Barlow';
+    //     font-style: normal;
+    //     font-weight: 400;
+    //     font-size: 16px;
+    //     line-height: 26px;
+    //     color: $dark-grey-blue;
+    // }
+
+
+    // &__order {
+    //     width: 730px;
+    //     background-color: #2C343E;
+
+    // }
+
+    // &__order-name {
+    //     margin-bottom: 8px;
+    //     font-family: 'Barlow';
+    //     font-style: normal;
+    //     font-weight: 400;
+    //     font-size: 16px;
+    //     line-height: 26px;
+    //     text-transform: uppercase;
+    //     color: #FFFFFF;
+    //     opacity: 0.5;
+    // }
+
+    // &__order-info {
+    //     font-family: 'Fraunces 9pt';
+    //     font-style: normal;
+    //     font-weight: 900;
+    //     font-size: 24px;
+    //     line-height: 40px;
+    //     color: #FFFFFF;
+    // }
+
+    // &__order-types {
+    //     font-family: 'Fraunces 9pt';
+    //     font-style: normal;
+    //     font-weight: 900;
+    //     font-size: 24px;
+    //     line-height: 40px;
+    //     color: $cyan;
+    // }
+}

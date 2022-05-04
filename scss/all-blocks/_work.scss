@@ -1,0 +1,83 @@
+// Work
+
+.work {
+    & {
+        margin-bottom: 200px;
+    }
+
+    &__container {
+        padding: 0px 85px 0px 85px;
+    }
+
+    &__name {
+        margin: auto;
+        margin-bottom: 178px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: $grey;
+    }
+
+    &__list::before {
+        content: url(../images/line.svg);
+        width: 750px;
+        position: absolute;
+        margin-top: -101px;
+        margin-left: 15px;
+    }
+
+    &__list {
+        margin: auto;
+        display: flex;
+        margin-bottom: 64px;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        width: 285px;
+        transition: all 0.4s;
+    }
+
+    &__item::before {
+        content: url(../images/Oval.svg);
+        position: absolute;
+        margin-top: -104px;
+    }
+
+    &__item+&__item {
+        margin-left: 95px;
+    }
+
+    &__item-number {
+        margin-bottom: 38px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: $pale-orange;
+    }
+
+    &__item-name {
+        width: 255px;
+        margin-bottom: 42px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: $dark-grey-blue;
+    }
+
+    &__item-info {
+        width: 285px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $dark-grey-blue;
+    }
+}

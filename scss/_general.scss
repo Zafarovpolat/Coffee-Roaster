@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+section {
+    width: 100%;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.coffee-button {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 257px;
+    padding: 15px 34px 16px 35px;
+    cursor: pointer;
+    color: $light-cream;
+    background: $cyan;
+    border: none;
+    text-align: center;
+    border-radius: 6px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    transition: all 0.3s;
+}
+
+.coffee-button:hover {
+    background: #66D2CF;
+}
+
+.coffee-button:active {
+    transform: scale(0.95, 0.95);
+    background: #E2DEDB;
+}

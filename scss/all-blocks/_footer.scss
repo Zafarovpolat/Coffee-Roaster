@@ -1,0 +1,78 @@
+// Footer
+
+.footer {
+    & {
+        background: #2C343E;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        padding: 48px 85px 48px 85px;
+    }
+
+    &__left {
+        margin-right: 103px;
+    }
+
+    &__middle {
+        margin-right: 369px;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__link {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: $grey;
+    }
+
+    &__item+&__item {
+        margin-left: 32px;
+    }
+
+    &__link:hover {
+        color: $cyan;
+    }
+
+    &__link:active {
+        color: white;
+    }
+
+    &__network-list {
+        width: 115px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #facebook {
+        fill: white;
+    }
+
+    #facebook:hover {
+        fill: $pale-orange;
+    }
+
+    #twitter {
+        fill: white;
+    }
+
+    #twitter:hover {
+        fill: $pale-orange;
+    }
+
+    #instagram {
+        fill: white;
+    }
+
+    #instagram:hover {
+        fill: $pale-orange;
+    }
+}

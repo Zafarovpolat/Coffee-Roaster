@@ -1,0 +1,111 @@
+// Choose
+
+.choose {
+    & {
+        margin-bottom: 351px;
+    }
+
+    &__container {
+        position: relative;
+        padding-top: 115px;
+        padding-bottom: 318px;
+        border-radius: 10px;
+        background-color: #282F38;
+    }
+
+    &__wrapper {
+        width: 540px;
+        margin: auto;
+        text-align: center;
+    }
+
+    &__heading {
+        margin-bottom: 32px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: $light-cream;
+    }
+
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $light-cream;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    &__list {
+        width: 1230px;
+        margin-top: 86px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        width: 350px;
+        padding: 72px 0px 48px 0px;
+        margin-top: 30px;
+        background: $cyan;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__item:nth-child(3) {
+        padding-top: 92px;
+    }
+
+    &__item+&__item {
+        margin-left: 30px;
+    }
+
+    &__item:nth-child(1) &__item-wrapper::before {
+        content: url(../images/Shape.svg);
+    }
+
+    &__item:nth-child(2) &__item-wrapper::before {
+        content: url(../images/Gift.svg);
+    }
+
+    &__item:nth-child(3) &__item-wrapper::before {
+        content: url(../images/Deliver.svg);
+    }
+
+    &__item-wrapper {
+        width: 255px;
+        margin: auto;
+        text-align: center;
+    }
+
+    &__item-text {
+        margin-top: 56px;
+        margin-bottom: 24px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: $light-cream;
+    }
+
+    &__item-subtext {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: $light-cream;
+    }
+}

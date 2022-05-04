@@ -1,0 +1,23 @@
+// Plan work
+.work-plan {
+
+    &__container {
+        padding: 189px 85px 47px 85px;
+        background-color: $dark-grey-blue;
+        border-radius: 10px;
+    }
+
+    .work__item-name {
+        color: $light-cream;
+    }
+
+    .work__item::before {
+        content: url(../images/Oval2.svg);
+        position: absolute;
+        margin-top: -104px;
+    }
+
+    .work__item-info {
+        color: $light-cream;
+    }
+}

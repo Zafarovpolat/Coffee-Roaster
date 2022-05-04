@@ -1,0 +1,45 @@
+// Header
+
+.header {
+    & {
+        margin-top: 45px;
+        padding: 10px 0px 10px 0px;
+        margin-bottom: 45px;
+        background-color: white;
+        position: sticky;
+        top: -1px;
+        z-index: 1;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list {
+        width: 283px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__link {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: $grey;
+    }
+
+    &__link:hover {
+        color: $cyan;
+    }
+
+    &__link:active {
+        color: $dark-grey-blue;
+    }
+}

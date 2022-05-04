@@ -1,0 +1,37 @@
+//  About page 
+
+.hero-about {
+    & {
+        margin-bottom: 168px;
+    }
+
+    &__container {
+        background-image: url(/images/About_Us.png);
+        border-radius: 10px;
+        padding: 0px 85px 0px 85px;
+    }
+
+    &__wrapper {
+        padding: 137px 0px 137px 0px;
+    }
+
+    &__heading {
+        margin-bottom: 24px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: $light-cream;
+    }
+
+    &__info {
+        width: 445px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $light-cream;
+    }
+}
