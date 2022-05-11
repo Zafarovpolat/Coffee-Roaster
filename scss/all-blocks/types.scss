@@ -11,6 +11,7 @@
 
     &__titles {
         width: 255px;
+        margin-right: 125px;
     }
 
     &__title-item {
@@ -25,21 +26,22 @@
         font-weight: 900;
         font-size: 24px;
         line-height: 32px;
-        color: $grey;
+        color: #83888F;
         opacity: 50%;
     }
 
     &__title-item:nth-child(1)>&__title-text {
-        color: $cyan;
+        color: #0E8784;
     }
 
     &__title-subtext {
+        width: 164px;
         font-family: 'Fraunces';
         font-style: normal;
         font-weight: 900;
         font-size: 24px;
         line-height: 32px;
-        color: $dark-grey-blue;
+        color: #333D4B;
         opacity: 50%;
     }
 
@@ -65,95 +67,80 @@
         content: none;
     }
 
-    // &__card-name {
-    //     margin-bottom: 56px;
-    //     font-family: 'Fraunces';
-    //     font-style: normal;
-    //     font-weight: 900;
-    //     font-size: 40px;
-    //     line-height: 48px;
-    //     color: $grey;
-    // }
+    &__cards-name {
+        margin-bottom: 56px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #83888F;
+    }
 
-    // &__card-list {
-    //     width: 730px;
-    //     margin-bottom: 88px;
-    //     display: flex;
-    //     justify-content: space-between;
-    // }
+    &__cards-wrapper {
+        position: relative;
+        width: 228px;
+        background: #F4F1EB;
+        float: left;
+        border-radius: 8px;
+        margin-bottom: 88px;
+    }
 
-    // &__card-item {
-    //     background: #F4F1EB;
-    //     border-radius: 8px;
-    // }
+    &__cards-wrapper+&__cards-wrapper {
+        margin-left: 23px;
+    }
 
-    // &__card-item:hover {
-    //     background: $pale-orange;
-    //     cursor: pointer;
-    // }
+    &__cards-wrapper:hover {
+        background-color: #FDD6BA;
+        cursor: pointer;
+    }
 
-    // &__card-item:active {
-    //     background: $pale-orange;
-    //     cursor: pointer;
-    // }
+    input[type=checkbox]:checked {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 228px;
+        height: 250px;
+        opacity: 0;
+        cursor: pointer;
+    }
 
-    // &__card-item-wrapper {
-    //     width: 172px;
-    //     padding: 32px 28px 84px 28px;
-    // }
+    div {
+        padding: 32px 28px 84px 28px;
+        border-radius: 8px;
+    }
 
-    // &__card-item-name {
-    //     font-family: 'Fraunces';
-    //     font-style: normal;
-    //     font-weight: 900;
-    //     font-size: 24px;
-    //     line-height: 32px;
-    //     color: $dark-grey-blue;
-    // }
+    input[type=checkbox]:checked~div {
+        background-color: #0E8784;
+        color: white;
+    }
 
-    // &__card-item-info {
-    //     font-family: 'Barlow';
-    //     font-style: normal;
-    //     font-weight: 400;
-    //     font-size: 16px;
-    //     line-height: 26px;
-    //     color: $dark-grey-blue;
-    // }
+    input[type=checkbox]:checked &__cards-text {
+        color: white;
+    }
 
+    input[type=checkbox]:checked &__cards-subtext {
+        color: white;
+    }
 
-    // &__order {
-    //     width: 730px;
-    //     background-color: #2C343E;
+    &__cards-text {
+        width: 175px;
+        margin-bottom: 24px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
+    }
 
-    // }
-
-    // &__order-name {
-    //     margin-bottom: 8px;
-    //     font-family: 'Barlow';
-    //     font-style: normal;
-    //     font-weight: 400;
-    //     font-size: 16px;
-    //     line-height: 26px;
-    //     text-transform: uppercase;
-    //     color: #FFFFFF;
-    //     opacity: 0.5;
-    // }
-
-    // &__order-info {
-    //     font-family: 'Fraunces 9pt';
-    //     font-style: normal;
-    //     font-weight: 900;
-    //     font-size: 24px;
-    //     line-height: 40px;
-    //     color: #FFFFFF;
-    // }
-
-    // &__order-types {
-    //     font-family: 'Fraunces 9pt';
-    //     font-style: normal;
-    //     font-weight: 900;
-    //     font-size: 24px;
-    //     line-height: 40px;
-    //     color: $cyan;
-    // }
+    &__cards-subtext {
+        width: 172px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
 }

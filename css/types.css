@@ -1,3 +1,7 @@
+.types {
+  margin-bottom: 168px;
+}
+
 .types__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,13 +10,14 @@
 
 .types__titles {
   width: 255px;
+  margin-right: 125px;
 }
 
 .types__title-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 24px;
+  margin-bottom: 49px;
 }
 
 .types__title-text {
@@ -31,11 +36,103 @@
 }
 
 .types__title-subtext {
+  width: 164px;
   font-family: 'Fraunces';
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
+  color: #333D4B;
+  opacity: 50%;
+}
+
+.types__title-item:hover {
+  cursor: pointer;
+}
+
+.types__title-item:hover > .types__title-text {
+  opacity: 1;
+}
+
+.types__title-item:hover > .types__title-subtext {
+  opacity: 1;
+}
+
+.types__title-item::after {
+  content: url(/images/underline.svg);
+  position: absolute;
+  margin-top: 34px;
+}
+
+.types__title-item:last-of-type::after {
+  content: none;
+}
+
+.types__cards-name {
+  margin-bottom: 56px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.types__cards-wrapper + .types__cards-wrapper {
+  margin-left: 23px;
+}
+
+.types__cards-wrapper:hover {
+  background-color: #FDD6BA;
+  cursor: pointer;
+}
+
+.types input[type=checkbox]:checked {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 228px;
+  height: 250px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.types div {
+  padding: 32px 28px 84px 28px;
+  border-radius: 8px;
+}
+
+.types input[type=checkbox]:checked ~ div {
+  background-color: #0E8784;
+  color: white;
+}
+
+input[type=checkbox]:checked .types__cards-text {
+  color: white;
+}
+
+input[type=checkbox]:checked .types__cards-subtext {
+  color: white;
+}
+
+.types__cards-text {
+  width: 175px;
+  margin-bottom: 24px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.types__cards-subtext {
+  width: 172px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
   color: #333D4B;
 }
 /*# sourceMappingURL=types.css.map */
