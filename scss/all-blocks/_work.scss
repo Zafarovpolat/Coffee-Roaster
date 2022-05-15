@@ -11,7 +11,7 @@
 
     &__name {
         margin: auto;
-        margin-bottom: 178px;
+        margin-bottom: 60px;
         font-family: 'Fraunces';
         font-style: normal;
         font-weight: 900;
@@ -20,34 +20,46 @@
         color: $grey;
     }
 
-    &__list::before {
+    &__list {
+        margin: auto;
+        display: flex;
+        margin-bottom: 24px;
+        flex-wrap: wrap;
+    }
+
+    &__item::before {
         content: url(../images/line.svg);
-        width: 750px;
         position: absolute;
         margin-top: -101px;
         margin-left: 15px;
     }
 
-    &__list {
-        margin: auto;
-        display: flex;
-        margin-bottom: 64px;
-        flex-wrap: wrap;
+    &__item:nth-child(3n+3)::before {
+        content: url(none);
+    }
+
+    &__item:last-child::before {
+        content: none;
     }
 
     &__item {
         width: 285px;
         transition: all 0.4s;
+        padding: 120px 0px 40px 0px;
     }
 
-    &__item::before {
+    &__item-number::before {
         content: url(../images/Oval.svg);
         position: absolute;
-        margin-top: -104px;
+        margin-top: -134px;
     }
 
     &__item+&__item {
         margin-left: 95px;
+    }
+
+    &__item:nth-child(3n+1) {
+        margin-left: 0px;
     }
 
     &__item-number {

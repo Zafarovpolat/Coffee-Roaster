@@ -2,7 +2,7 @@
 .work-plan {
 
     &__container {
-        padding: 189px 85px 47px 85px;
+        padding: 129px 85px 47px 85px;
         background-color: $dark-grey-blue;
         border-radius: 10px;
     }
@@ -11,10 +11,10 @@
         color: $light-cream;
     }
 
-    .work__item::before {
+    .work__item-number::before {
         content: url(../images/Oval2.svg);
         position: absolute;
-        margin-top: -104px;
+        margin-top: -134px;
     }
 
     .work__item-info {

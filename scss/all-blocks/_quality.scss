@@ -8,7 +8,6 @@
     &__container {
         padding: 88px 85px 176px 85px;
         display: flex;
-        justify-content: space-between;
         position: relative;
         border-radius: 10px;
         background-color: #282F38;
@@ -37,7 +36,7 @@
 
     &__img {
         position: absolute;
-        margin: -176px 0px 0px -448px;
+        transform: translate(102px, -180px);
         border-radius: 8px;
     }
 }

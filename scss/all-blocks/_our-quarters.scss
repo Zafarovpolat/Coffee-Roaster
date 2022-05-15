@@ -21,14 +21,20 @@
 
     &__list {
         display: flex;
+        flex-wrap: wrap;
     }
 
     &__item {
         width: 285px;
+        margin-bottom: 20px;
     }
 
     &__item+&__item {
         margin-left: 108px;
+    }
+
+    &__item:nth-child(3n+1) {
+        margin-left: 0px;
     }
 
     &__item:nth-child(1)::before {
@@ -40,6 +46,14 @@
     }
 
     &__item:nth-child(3)::before {
+        content: url(../images/Australia.svg);
+    }
+
+    &__item:nth-child(4)::before {
+        content: url(../images/Australia.svg);
+    }
+
+    &__item:nth-child(5)::before {
         content: url(../images/Australia.svg);
     }
 
