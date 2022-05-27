@@ -1,0 +1,37 @@
+@media only screen and (max-width:768px) {
+    // hero
+
+    .hero {
+
+        & {
+            margin-bottom: 144px;
+        }
+
+        &__container {
+            background-position: center;
+            border-radius: 10px;
+            padding-left: 58px;
+            padding-right: 58px;
+        }
+
+        &__wrapper {
+            width: 398px;
+            padding: 104px 0px 104px 0px;
+        }
+
+        &__heading {
+            width: 329px;
+            font-size: 48px;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+
+        &__info {
+            width: 398px;
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 40px;
+        }
+
+    }
+}

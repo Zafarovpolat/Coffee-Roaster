@@ -42,7 +42,7 @@
 
     &__list {
         width: 1230px;
-        margin-top: 86px;
+        margin-top: 116px;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -53,10 +53,10 @@
     &__item {
         width: 350px;
         padding: 72px 0px 48px 0px;
-        margin-top: 30px;
         background: $cyan;
         border-radius: 8px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
@@ -69,19 +69,19 @@
         margin-left: 30px;
     }
 
-    &__item:nth-child(1) &__item-wrapper::before {
+    &__item:nth-child(1) &__item-img::before {
         content: url(../images/Shape.svg);
     }
 
-    &__item:nth-child(2) &__item-wrapper::before {
+    &__item:nth-child(2) &__item-img::before {
         content: url(../images/Gift.svg);
     }
 
-    &__item:nth-child(3) &__item-wrapper::before {
+    &__item:nth-child(3) &__item-img::before {
         content: url(../images/Deliver.svg);
     }
 
-    &__item-wrapper {
+    &__item-img {
         width: 255px;
         margin: auto;
         text-align: center;

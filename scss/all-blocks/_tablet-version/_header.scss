@@ -1,0 +1,19 @@
+@media only screen and (max-width:768px) {
+
+    .container {
+        width: 689px;
+        border: 2px solid red;
+    }
+
+    // header
+
+    .header {
+        & {
+            margin-bottom: 54px;
+        }
+
+        &__container {
+            padding: 0;
+        }
+    }
+}

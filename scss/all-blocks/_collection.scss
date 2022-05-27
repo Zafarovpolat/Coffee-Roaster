@@ -23,18 +23,16 @@
     }
 
     &__item {
+        width: 255px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         transition: all 0.3s;
     }
 
     &__item:hover {
         transform: scale(1.05, 1.05);
-    }
-
-    &__link {
-        width: 255px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        cursor: pointer;
     }
 
     &__name {

@@ -1,0 +1,50 @@
+@media only screen and (max-width:768px) {
+    // work
+
+    .work {
+        & {
+            margin-bottom: 144px;
+        }
+
+        &__container {
+            padding: 0;
+        }
+
+        &__list {
+            margin-bottom: 44px;
+        }
+
+        &__item::before {
+            content: " ";
+            background-image: url(../images/line.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 233px;
+            height: 2px;
+            position: absolute;
+            margin-top: -88px;
+            margin-left: 15px;
+        }
+
+        &__item {
+            width: 223px;
+        }
+
+        &__item+&__item {
+            margin-left: 5px;
+        }
+
+        &__item-name {
+            width: 223px;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 32px;
+        }
+
+        &__item-info {
+            width: 223px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
