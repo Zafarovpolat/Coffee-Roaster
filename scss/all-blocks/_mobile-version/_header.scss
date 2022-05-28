@@ -1,0 +1,63 @@
+@media only screen and (max-width:375px) {
+
+    .container {
+        width: 327px;
+    }
+
+    // header
+
+    .header {
+        & {
+            padding: 10px 24px;
+            border: 2px solid red;
+            margin-bottom: 41px;
+        }
+
+        &__logo {
+            width: 163px;
+            height: 18px;
+        }
+
+        &__container {
+            padding: 0;
+        }
+
+        &__menu {
+            width: 16px;
+            padding: 8px 0px;
+        }
+
+        &__menu::before {
+            content: " ";
+            background: #333D4B;
+            border-radius: 1.5px;
+            position: absolute;
+            width: 16px;
+            height: 3px;
+            top: 14px;
+        }
+
+        .line {
+            background: #333D4B;
+            border-radius: 1.5px;
+            position: absolute;
+            width: 16px;
+            height: 3px;
+        }
+
+        &__list {
+            display: none;
+        }
+
+        &__menu:after {
+            content: " ";
+            background: #333D4B;
+            border-radius: 1.5px;
+            position: absolute;
+            width: 16px;
+            height: 3px;
+            bottom: 11px;
+        }
+
+    }
+}

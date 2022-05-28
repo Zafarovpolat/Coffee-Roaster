@@ -14,7 +14,9 @@
     }
 
     &__list {
+        width: 282px;
         display: flex;
+        justify-content: space-between;
     }
 
     &__link {
@@ -26,10 +28,6 @@
         letter-spacing: 0.923077px;
         text-transform: uppercase;
         color: $grey;
-    }
-
-    &__item+&__item {
-        margin-left: 32px;
     }
 
     &__link:hover {

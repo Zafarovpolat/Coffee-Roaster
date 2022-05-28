@@ -1,0 +1,100 @@
+@media only screen and (max-width:375px) {
+
+    // choose
+
+    .choose {
+
+        & {
+            margin-bottom: 710px;
+        }
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            padding: 64px 24px 660px 24px;
+        }
+
+        &__heading {
+            font-size: 28px;
+            line-height: 28px;
+        }
+
+        &__wrapper {
+            width: 279px;
+        }
+
+        &__list {
+            width: 279px;
+            margin-top: 244px;
+        }
+
+        &__item {
+            width: 279px;
+            padding: 71px 33px 51px 33px;
+            margin-bottom: 24px;
+            flex-direction: column;
+        }
+
+        &__item-img {
+            width: 110px;
+            margin-bottom: 56px;
+        }
+
+        &__item+&__item {
+            margin-left: 0px;
+        }
+
+        &__item-wrapper {
+            width: 255px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__item:nth-child(3) {
+            padding-top: 83px;
+        }
+
+        &__item:last-child {
+            margin-bottom: 0;
+        }
+
+        &__item:nth-child(1) &__item-img::before {
+            background-image: none;
+        }
+
+        &__item:nth-child(2) &__item-img::before {
+            background-image: none;
+        }
+
+        &__item:nth-child(3) &__item-img::before {
+            background-image: none;
+        }
+
+        &__item:nth-child(1) &__item-img::before {
+            content: url(../images/Shape.svg);
+        }
+
+        &__item:nth-child(2) &__item-img::before {
+            content: url(../images/Gift.svg);
+        }
+
+        &__item:nth-child(3) &__item-img::before {
+            content: url(../images/Deliver.svg);
+        }
+
+        &__item-text {
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+
+        &__item-subtext {
+            width: 212px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+    }
+
+}

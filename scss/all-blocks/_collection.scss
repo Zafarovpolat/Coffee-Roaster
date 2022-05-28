@@ -35,6 +35,10 @@
         cursor: pointer;
     }
 
+    &__item:last-child {
+        margin-bottom: 0;
+    }
+
     &__name {
         margin-bottom: 24px;
         font-family: 'Fraunces';
