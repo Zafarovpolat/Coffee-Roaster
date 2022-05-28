@@ -8,15 +8,9 @@
     &__container {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
         padding: 48px 85px 48px 85px;
-    }
-
-    &__left {
-        margin-right: 103px;
-    }
-
-    &__middle {
-        margin-right: 369px;
     }
 
     &__list {
