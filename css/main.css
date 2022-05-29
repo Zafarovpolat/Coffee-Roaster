@@ -1619,6 +1619,7 @@ section {
     background-size: 286px;
   }
   .collection__list {
+    width: 282px;
     padding-top: 75px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
