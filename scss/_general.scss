@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: $cyan;
+}
+
 li {
     list-style-type: none;
 }

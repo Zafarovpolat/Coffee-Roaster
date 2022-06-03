@@ -8,7 +8,6 @@
     <meta name="author" content="Zafarov Polat">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
     <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
     <link rel="icon" href="./images/coffe-roaster.svg">
@@ -23,8 +22,13 @@
             <a href="#">
                 <img class="header__logo" src="./images/logo.svg" alt="header-logo" width="236">
             </a>
-            <nav class="header__menu">
-                <span class="line"></span>
+
+            <button class="header__menu">
+                <img src="./images/open-menu.svg" alt="" class="header__open">
+                <img src="./images/close-menu.svg" alt="" class="header__close">
+            </button>
+
+            <nav class="header__nav">
                 <ul class="header__list">
                     <li class="header__item">
                         <a href="#" class="header__link">home</a>
@@ -240,6 +244,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/main.js"></script>
 
 </body>
 

@@ -8,11 +8,15 @@
 
     .header {
         & {
-            margin-bottom: 54px;
+            margin-bottom: 58px;
         }
 
         &__container {
             padding: 0;
+        }
+
+        &__nav {
+            display: block;
         }
     }
 }

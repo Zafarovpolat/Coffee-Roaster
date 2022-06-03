@@ -1,0 +1,39 @@
+@media only screen and (max-width:768px) {
+    .quality {
+        & {
+            margin-bottom: 128px;
+        }
+
+        &__container {
+            padding: 224px 58px 83px 70px;
+        }
+
+        &__left {
+            text-align: center;
+        }
+
+        &__right {
+            position: absolute;
+        }
+
+        &__name {
+            margin-bottom: 24px;
+            font-size: 32px;
+            line-height: 48px;
+        }
+
+        &__info {
+            font-weight: 400;
+            font-size: 15px;
+        }
+
+        &__img {
+            width: 573px;
+            height: 320px;
+            background-size: 100px;
+            position: absolute;
+            transform: translate(-10px, -375px);
+            border-radius: 8px;
+        }
+    }
+}

@@ -24,6 +24,10 @@
         align-items: center;
     }
 
+    &__menu {
+        display: none;
+    }
+
     &__link {
         font-family: 'Barlow';
         font-style: normal;
