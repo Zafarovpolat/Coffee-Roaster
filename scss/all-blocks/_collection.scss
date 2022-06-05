@@ -60,3 +60,13 @@
         color: $dark-grey-blue;
     }
 }
+
+// hero-container bacground images retina
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+    .collection__container {
+        background: url('/images/collections@2x.png');
+    }
+}

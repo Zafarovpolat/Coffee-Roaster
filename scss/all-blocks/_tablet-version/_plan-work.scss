@@ -1,0 +1,46 @@
+@media only screen and (max-width:768px) {
+
+    // Plan work
+    .work-plan {
+
+        &__container {
+            width: 768px;
+            padding: 97px 39px;
+        }
+
+        .work__item+.work__item {
+            margin-left: 9px;
+        }
+
+        .work__item:nth-child(3n+4) {
+            margin-left: 100px;
+        }
+
+        .work__item {
+            width: 223px;
+        }
+
+        .work__item-number {
+            margin-bottom: 42px;
+        }
+
+        .work__item-number::before {
+            content: url(../images/Oval2.svg);
+            position: absolute;
+            margin-top: -134px;
+        }
+
+        .work__item-name {
+            width: 223px;
+            margin-bottom: 38px;
+            font-size: 28px;
+            line-height: 32px;
+        }
+
+        .work__item-info {
+            width: 223px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}

@@ -8,7 +8,6 @@
     <meta name="author" content="Zafarov Polat">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
     <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
     <link rel="icon" href="./images/coffe-roaster.svg">
@@ -19,16 +18,22 @@
 
     <header class="header">
         <div class="container header__container">
-            <a href="index.html">
-                <img class="header__logo" src="./images/logo.svg" alt="header-logo" width="236">
+            <a href="./index.html">
+                <img class="header__logo" src="./images/logo.svg" alt="header-logo" width="236" height="26">
             </a>
-            <nav class="header__menu">
+
+            <button class="header__menu">
+                <img src="./images/open-menu.svg" alt="" class="header__open" width="16" height="15">
+                <img src="./images/close-menu.svg" alt="" class="header__close" width="16" height="15">
+            </button>
+
+            <nav class="header__nav">
                 <ul class="header__list">
                     <li class="header__item">
                         <a href="./index.html" class="header__link">home</a>
                     </li>
                     <li class="header__item">
-                        <a href="#" class="header__link">about us</a>
+                        <a href="./about.html" class="header__link">about us</a>
                     </li>
                     <li class="header__item">
                         <a href="plan.html" class="header__link">create your plan</a>
@@ -54,7 +59,9 @@
         <section class="commit">
             <div class="container commit__container">
                 <div class="commit__left">
-                    <img class="commit__img" src="./images/Commit.png" alt="Commit" width="445" height="520">
+                    <img class="commit__img" src="./images/Commit.png"
+                        srcset="./images/Commit.png 1x, ./images/Commit@2x.png  2x" alt="Commit" width="445"
+                        height="520">
                 </div>
                 <div class="commit__right">
                     <h2 class="commit__name">Our commitment</h2>
@@ -81,7 +88,9 @@
                         enjoyable.</h4>
                 </div>
                 <div class="quality__right">
-                    <img class="quality__img" src="./images/Quality.png" alt="Quality" width="445" height="474">
+                    <img class="quality__img" src="./images/Quality.png"
+                        srcset="./images/Quality.png 1x, ./images/Quality@2x.png  2x" alt="Quality" width="445"
+                        height="474">
                 </div>
             </div>
         </section>
@@ -121,7 +130,7 @@
         <div class="container footer__container">
             <div class="footer__left">
                 <a href="index.html">
-                    <img class="header__logo" src="./images/logo2.svg" alt="header-logo" width="236">
+                    <img class="header__logo" src="./images/logo2.svg" alt="header-logo" width="236" height="26">
                 </a>
             </div>
 

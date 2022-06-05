@@ -1,7 +1,7 @@
 var burgerBtn = document.querySelector(".header__menu")
-var nav = document.querySelector(".header__nav")
+var menu = document.querySelector(".header")
 
 
 burgerBtn.addEventListener("click", (evt) => {
-    nav.classList.toggle("nav--open")
+    menu.classList.toggle("burger--menu")
 })

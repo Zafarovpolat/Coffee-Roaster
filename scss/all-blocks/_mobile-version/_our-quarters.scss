@@ -1,0 +1,36 @@
+@media only screen and (max-width:375px) {
+    .our-quarters {
+        & {
+            margin-bottom: 120px;
+        }
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__item {
+            width: 327px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 80px;
+        }
+
+        &__item+&__item {
+            margin-left: 0px;
+        }
+
+        &__item:nth-child(3n+1) {
+            margin-left: 0px;
+        }
+
+        &__country {
+            margin-bottom: 22px;
+            font-size: 28px;
+            line-height: 36px;
+        }
+    }
+}

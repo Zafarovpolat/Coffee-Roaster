@@ -1,0 +1,39 @@
+@media only screen and (max-width:375px) {
+
+    // Plan work
+    .work-plan {
+
+        &__container {
+            width: 375px;
+            padding: 80px 27px;
+        }
+
+        .work__item+.work__item {
+            margin-left: 0px;
+        }
+
+        .work__item:nth-child(3n+4) {
+            margin-left: 0px;
+        }
+
+        .work__item {
+            width: 327px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .work__item-number {
+            margin-bottom: 24px;
+        }
+
+        .work__item-name {
+            width: 327px;
+            margin-bottom: 24px;
+        }
+
+        .work__item-info {
+            width: 327px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@media only screen and (max-width:375px) {
+    .commit {
+        & {
+            margin-bottom: 198px;
+        }
+
+        &__container {
+            flex-direction: column;
+        }
+
+        &__img {
+            width: 327px;
+            height: 400px;
+        }
+
+        &__left {
+            margin-bottom: 48px;
+        }
+
+        &__name {
+            text-align: center;
+        }
+
+        &__info {
+            width: 327px;
+            text-align: center;
+        }
+    }
+}

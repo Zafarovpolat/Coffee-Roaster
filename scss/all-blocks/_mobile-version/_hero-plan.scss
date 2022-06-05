@@ -1,0 +1,35 @@
+@media only screen and (max-width:375px) {
+    // Create Plan Page
+
+    .hero-plan {
+
+        & {
+            margin-bottom: 120px;
+        }
+
+        &__container {
+            background-image: url(/images/hero-plan-mobile.jpg);
+            background-position: 0px 0px;
+            background-size: cover;
+            padding: 0px 24px;
+        }
+
+        &__wrapper {
+            padding: 101px 0px 136px 0px;
+        }
+
+        &__heading {
+            text-align: center;
+            width: 279px;
+            margin-bottom: 22px;
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        &__info {
+            text-align: center;
+            width: 279px;
+        }
+
+    }
+}

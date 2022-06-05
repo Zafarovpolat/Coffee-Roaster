@@ -6,7 +6,6 @@
 
         &__container {
             padding: 0;
-            border: 2px solid red;
         }
 
         &__list {
@@ -25,26 +24,6 @@
 
         &__item:nth-child(3n+1) {
             margin-left: -2px;
-        }
-
-        &__item:nth-child(1)::before {
-            content: url(../images/UK.svg);
-        }
-
-        &__item:nth-child(2)::before {
-            content: url(../images/Canada.svg);
-        }
-
-        &__item:nth-child(3)::before {
-            content: url(../images/Australia.svg);
-        }
-
-        &__item:nth-child(4)::before {
-            content: url(../images/Australia.svg);
-        }
-
-        &__item:nth-child(5)::before {
-            content: url(../images/Australia.svg);
         }
 
         &__country {

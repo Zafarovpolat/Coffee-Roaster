@@ -1,0 +1,29 @@
+@media only screen and (max-width:375px) {
+
+    .hero-about {
+        & {
+            margin-bottom: 120px;
+        }
+
+        &__container {
+            background-size: cover;
+            background-position: -320px 0px;
+            padding: 0px 24px 0px 24px;
+        }
+
+        &__wrapper {
+            padding: 111px 0px 87px 0px;
+        }
+
+        &__heading {
+            text-align: center;
+            font-size: 28px;
+            line-height: 28px;
+        }
+
+        &__info {
+            text-align: center;
+            width: 279px;
+        }
+    }
+}
