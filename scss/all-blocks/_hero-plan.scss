@@ -42,8 +42,10 @@
 
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
+    .hero-plan {
 
-    &__container {
-        background-image: url(/images/Create_plan@2x.png);
+        &__container {
+            background-image: url(/images/Create_plan@2x.png);
+        }
     }
 }

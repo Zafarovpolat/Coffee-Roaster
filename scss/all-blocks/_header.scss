@@ -1,3 +1,40 @@
+.admin {
+    position: fixed;
+    z-index: 10;
+    bottom: 30px;
+    right: 30px;
+
+
+    &>button {
+        background-color: $cyan;
+        color: white;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: $light-cream;
+        background: $cyan;
+        border: none;
+        text-align: center;
+        border-radius: 6px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 25px;
+        transition: all 0.3s;
+        padding: 10px;
+
+        &:hover {
+            cursor: pointer;
+            background: #66D2CF;
+        }
+
+        &:active {
+            transform: scale(0.90);
+        }
+    }
+}
+
 // Header
 
 .header {

@@ -39,7 +39,10 @@
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
 
-    &__container {
-        background-image: url(/images/About_Us@2x.png);
+    .hero-about {
+        &__container {
+            background-image: url(/images/About_Us@2x.png);
+        }
     }
+
 }
